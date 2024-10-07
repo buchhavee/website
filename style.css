@@ -1,0 +1,167 @@
+@import "./base.css";
+
+/** Styling af fonts og logo */
+
+.logo {
+  font-family: "Inter", sans-serif;
+  color: #5100ff;
+  margin: 0;
+  font-size: 4rem;
+  font-weight: bold;
+  text-decoration: none;
+  transition: all 0.3s ease;
+}
+
+.logo:hover {
+  color: #7a3dfd;
+  transition: all 0.3s ease;
+}
+
+h1 {
+  font-family: "Inter", sans-serif;
+  color: #5100ff;
+  margin: 0;
+}
+
+h2 {
+  font-family: "Inter", sans-serif;
+  color: #000000;
+  margin: 0;
+}
+
+h3 {
+  font-family: "Inter", sans-serif;
+  color: #000000;
+  margin: 0;
+}
+
+h4 {
+  font-family: "Inter", sans-serif;
+  color: #ffffff;
+  margin: 0;
+  font-size: 2.8rem;
+  margin-bottom: 1rem;
+}
+
+.footerlinks {
+  font-family: "Inter", sans-serif;
+  color: #ffffff;
+  margin: 0;
+  font-size: 1.3rem;
+  text-decoration: underline;
+}
+
+/** Styling af menu */
+
+#menu-toggle {
+  position: absolute;
+  left: 2.8rem;
+  background: none;
+  border: none;
+  cursor: pointer;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  height: 20px;
+  width: 30px;
+  padding: 0;
+  margin-block: 2.2rem;
+}
+
+#menu-toggle span {
+  display: block;
+  height: 15%;
+  width: 90%;
+  background-color: #5100ff;
+  transition: all 0.3s ease;
+}
+
+#menu {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: #5100ff;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  opacity: 0;
+  visibility: hidden;
+  transition: all 0.3s ease;
+}
+
+.menu-icon:hover {
+  background-color: #7a3dfd;
+  transition: all 0.3s ease;
+}
+
+.menu-open #menu {
+  opacity: 1;
+  visibility: visible;
+}
+
+#menu ul {
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+  text-align: center;
+}
+
+#menu ul li {
+  margin: 2rem 0;
+}
+
+#menu ul li a {
+  color: #ffffd2;
+  font-family: "Inter", sans-serif;
+  text-decoration: none;
+  font-size: 2rem;
+  transition: color 0.3s ease;
+}
+
+#menu ul li a:hover {
+  color: white;
+}
+
+#close-menu {
+  position: absolute;
+  top: 2.5rem;
+  left: 3rem;
+  background: none;
+  border: none;
+  color: #ffffd2;
+  font-size: 2rem;
+  cursor: pointer;
+  transition: color 0.3s ease;
+}
+
+#close-menu:hover {
+  color: white;
+}
+
+/** Styling af sideelementer */
+
+body {
+  margin: 0;
+  padding: 0;
+  background: linear-gradient(135deg, #f26716, #ffffd2, #f2eda7);
+  min-height: 100vh;
+  overflow: auto;
+}
+
+header {
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+  padding: 1rem;
+  background-color: rgba(255, 255, 255, 0);
+  backdrop-filter: blur(5px);
+  position: relative;
+}
+
+section {
+  padding-block: 3rem;
+}
+
+/** */

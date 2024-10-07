@@ -1,0 +1,39 @@
+@media (min-width: 750px) {
+  .grid_1-1-1 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+
+  header {
+    min-height: 100vh;
+  }
+
+  body section {
+    width: 100%;
+    min-height: 100vh;
+  }
+  .section1 {
+    background: #e0dfe2;
+  }
+
+  .section2 {
+    background: #e0dfe2;
+  }
+
+  .section3 {
+    background: #e0dfe2;
+  }
+
+  footer {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    align-content: space-around;
+    padding-inline: 10%;
+    background: #5100ff;
+    min-height: 100vh;
+  }
+}

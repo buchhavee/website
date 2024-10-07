@@ -1,0 +1,24 @@
+/*** https://developer.mozilla.org/en-US/docs/Web/CSS/font-smooth **/
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  text-rendering: optimizeLegibility;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+/** Farve variabler **/
+:root {
+  --sand: #f2eda7;
+  --lightyellow: #ffffd2;
+  --orange: #f26716;
+  --yellow: #f2b705;
+  --grey: #e0dfe2;
+  --red: #bf452a;
+}
